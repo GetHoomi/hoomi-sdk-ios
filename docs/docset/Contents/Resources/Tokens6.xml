@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/HFLoginButtonDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/HFLoginButtonDelegate</TokenIdentifier>
+			<Abstract type="html">Delegate definition for handling events from HFLoginButton.</Abstract>
+			<DeclaredIn>HFLoginButtonDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HFLoginButtonDelegate/buttonWillPerformHoomiAuthorization:</TokenIdentifier>
+			<Abstract type="html">Called by the HFLoginButton before initiating authorization. Use this to show a progress indicator.</Abstract>
+			<DeclaredIn>HFLoginButtonDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)buttonWillPerformHoomiAuthorization:(HFLoginButton *)button</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>button</Name>
+					<Abstract type="html">the button that was the source of the event</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buttonWillPerformHoomiAuthorization:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HFLoginButtonDelegate/button:didPerformHoomiAuthorizationWithResult:error:</TokenIdentifier>
+			<Abstract type="html">Called by the HFLoginButton after authorization completes with either the new token or the error that</Abstract>
+			<DeclaredIn>HFLoginButtonDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)button:(HFLoginButton *)button didPerformHoomiAuthorizationWithResult:(HFAccessToken *)token error:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>button</Name>
+					<Abstract type="html">the button that was the source of the event</Abstract>
+				</Parameter><Parameter>
+					<Name>token</Name>
+					<Abstract type="html">the token (if any) that resulted from the authorization</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">the error that occurred during authorization (if any)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/button:didPerformHoomiAuthorizationWithResult:error:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

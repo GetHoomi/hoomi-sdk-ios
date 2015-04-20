@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>HFClient Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Hoomi </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Hoomi, Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/clientWithApplicationId:">+ clientWithApplicationId:</option>
+		
+		<option value="//api/name/currentClient">+ currentClient</option>
+		
+		<option value="//api/name/setCurrentClient:">+ setCurrentClient:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/appDataAsync">- appDataAsync</option>
+		
+		<option value="//api/name/appDataAsyncWithToken:">- appDataAsyncWithToken:</option>
+		
+		<option value="//api/name/application:openURL:sourceApplication:annotation:">- application:openURL:sourceApplication:annotation:</option>
+		
+		<option value="//api/name/authorizeAsyncWithRedirectUrl:scopes:">- authorizeAsyncWithRedirectUrl:scopes:</option>
+		
+		<option value="//api/name/enableClientAuthentication">- enableClientAuthentication</option>
+		
+		<option value="//api/name/logOut">- logOut</option>
+		
+		<option value="//api/name/requireClientAuthentication">- requireClientAuthentication</option>
+		
+		<option value="//api/name/setAppDataAsync:">- setAppDataAsync:</option>
+		
+		<option value="//api/name/setAppDataAsync:ETag:">- setAppDataAsync:ETag:</option>
+		
+		<option value="//api/name/setAppDataAsync:ETag:token:">- setAppDataAsync:ETag:token:</option>
+		
+		<option value="//api/name/setAppDataAsync:token:">- setAppDataAsync:token:</option>
+		
+		<option value="//api/name/tokenInformationAsync:">- tokenInformationAsync:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">HFClient Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>HFClient.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The main entry point for working with Hoomi.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/clientWithApplicationId:" title="clientWithApplicationId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clientWithApplicationId:">+&nbsp;clientWithApplicationId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates an HFClient with the given application ID from Hoomi.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)clientWithApplicationId:(NSString *)<em>applicationId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>applicationId</code></th>
+						<td><p>the application ID that this client will use</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/currentClient" title="currentClient"></a>
+	<h3 class="method-title"><code><a href="#//api/name/currentClient">+&nbsp;currentClient</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets the default client to use for accessing Hoomi.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (HFClient *)currentClient</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCurrentClient:" title="setCurrentClient:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCurrentClient:">+&nbsp;setCurrentClient:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the default client to use for accessing Hoomi.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setCurrentClient:(HFClient *)<em>client</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>client</code></th>
+						<td><p>the new current HFClient</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/enableClientAuthentication" title="enableClientAuthentication"></a>
+	<h3 class="method-title"><code><a href="#//api/name/enableClientAuthentication">&ndash;&nbsp;enableClientAuthentication</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Enables client authentication, which will only be effective when not running in the simulator</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)enableClientAuthentication</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>and when an app receipt is available on the device (as will be the case when the app has been purchased</p>
+
+<p>through the app store).</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/requireClientAuthentication" title="requireClientAuthentication"></a>
+	<h3 class="method-title"><code><a href="#//api/name/requireClientAuthentication">&ndash;&nbsp;requireClientAuthentication</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Enables client authentication, and will request an app receipt if none is</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)requireClientAuthentication</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>available.  During testing, you won&rsquo;t be able to use the simulator, and may</p>
+
+<p>need to register a sandbox account through iTunes Connect (<a href="https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/SettingUpUserAccounts.html">https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/SettingUpUserAccounts.html)</a>)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logOut" title="logOut"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logOut">&ndash;&nbsp;logOut</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Clears the current access token.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)logOut</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/authorizeAsyncWithRedirectUrl:scopes:" title="authorizeAsyncWithRedirectUrl:scopes:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/authorizeAsyncWithRedirectUrl:scopes:">&ndash;&nbsp;authorizeAsyncWithRedirectUrl:scopes:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Begins the process of authorizing with Hoomi using the given redirect url and scopes.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)authorizeAsyncWithRedirectUrl:(NSURL *)<em>redirectUrl</em> scopes:(NSArray *)<em>scopes</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>redirectUrl</code></th>
+						<td><p>the redirect URL to use to return to your app</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>scopes</code></th>
+						<td><p>the set of (NSString) scopes to request access to</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>an <a href="../Classes/HFAccessToken.html">HFAccessToken</a> (asynchronously)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/application:openURL:sourceApplication:annotation:" title="application:openURL:sourceApplication:annotation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/application:openURL:sourceApplication:annotation:">&ndash;&nbsp;application:openURL:sourceApplication:annotation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Pass through for completing the login process.  Call this method from your AppDelegate&rsquo;s</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)application:(UIApplication *)<em>application</em> openURL:(NSURL *)<em>url</em> sourceApplication:(NSString *)<em>sourceApplication</em> annotation:(id)<em>annotation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>application</code></th>
+						<td><p>the UIApplication</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>url</code></th>
+						<td><p>the URL being opened in the application</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sourceApplication</code></th>
+						<td><p>the bundle ID of the app that is requesting your app to open the URL</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>annotation</code></th>
+						<td><p>a property list object supplied by the source app to communicate information to the receiving app</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>true if and only if the link was the result of a Hoomi callback and was handled by Hoomi</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>application:openURL:sourceApplication:annotation: selector implementation.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tokenInformationAsync:" title="tokenInformationAsync:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tokenInformationAsync:">&ndash;&nbsp;tokenInformationAsync:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets token information for the given Hoomi access token.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)tokenInformationAsync:(HFAccessToken *)<em>token</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>token</code></th>
+						<td><p>the token to fetch information for</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><a href="../Classes/HFTokenInformation.html">HFTokenInformation</a> (asynchronously)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/appDataAsyncWithToken:" title="appDataAsyncWithToken:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/appDataAsyncWithToken:">&ndash;&nbsp;appDataAsyncWithToken:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets the app data for a user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)appDataAsyncWithToken:(HFAccessToken *)<em>token</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>token</code></th>
+						<td><p>the access token (which must have the user:app:data:read scope) for the user</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><a href="../Classes/HFAppData.html">HFAppData</a> (asynchronously)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/appDataAsync" title="appDataAsync"></a>
+	<h3 class="method-title"><code><a href="#//api/name/appDataAsync">&ndash;&nbsp;appDataAsync</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets the app data for the current user (the current token must have the user:app:data:read scope).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)appDataAsync</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><a href="../Classes/HFAppData.html">HFAppData</a> (asynchronously)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAppDataAsync:ETag:token:" title="setAppDataAsync:ETag:token:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAppDataAsync:ETag:token:">&ndash;&nbsp;setAppDataAsync:ETag:token:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the app data for the user with the given token.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)setAppDataAsync:(NSDictionary *)<em>jsonData</em> ETag:(NSString *)<em>ETag</em> token:(HFAccessToken *)<em>token</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>jsonData</code></th>
+						<td><p>the new (JSON-serializable) data to associate with the user</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>ETag</code></th>
+						<td><p>an ETag to be used for optimistic concurrency control. Set to &ldquo;*&rdquo; to ignore the ETag</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>token</code></th>
+						<td><p>the token (which must have the user:app:data:write scope) for the user</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>the new <a href="../Classes/HFAppData.html">HFAppData</a> (asynchronously)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAppDataAsync:ETag:" title="setAppDataAsync:ETag:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAppDataAsync:ETag:">&ndash;&nbsp;setAppDataAsync:ETag:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the app data for the current user (the current token must have the user:app:data:write scope).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)setAppDataAsync:(NSDictionary *)<em>jsonData</em> ETag:(NSString *)<em>ETag</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>jsonData</code></th>
+						<td><p>the new (JSON-serializable) data to associate with the user</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>ETag</code></th>
+						<td><p>an ETag to be used for optimistic concurrency control. Set to &ldquo;*&rdquo; to ignore the ETag</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>the new <a href="../Classes/HFAppData.html">HFAppData</a> (asynchronously)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAppDataAsync:token:" title="setAppDataAsync:token:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAppDataAsync:token:">&ndash;&nbsp;setAppDataAsync:token:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the app data for the user with the given token.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)setAppDataAsync:(NSDictionary *)<em>jsonData</em> token:(HFAccessToken *)<em>token</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>jsonData</code></th>
+						<td><p>the new (JSON-serializable) data to associate with the user</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>token</code></th>
+						<td><p>the token (which must have the user:app:data:write scope) for the user</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>the new <a href="../Classes/HFAppData.html">HFAppData</a> (asynchronously)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAppDataAsync:" title="setAppDataAsync:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAppDataAsync:">&ndash;&nbsp;setAppDataAsync:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the app data for the current user (the current token must have the user:app:data:write scope).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)setAppDataAsync:(NSDictionary *)<em>jsonData</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>jsonData</code></th>
+						<td><p>the new (JSON-serializable) data to associate with the user</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>the new <a href="../Classes/HFAppData.html">HFAppData</a> (asynchronously)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HFClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Hoomi, Inc. All rights reserved. Updated: 2015-04-20</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

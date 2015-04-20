@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HFLoginButtonStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HFLoginButtonStyle</TokenIdentifier>
+			<Abstract type="html">Defines login button styles for the HFLoginButton.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HFLoginButtonStyleWhiteOnGreen</TokenIdentifier>
+            <Abstract type="html">   Makes the login button use a green background with a white text/image overlay.</Abstract>
+            <Declaration>HFLoginButtonStyleWhiteOnGreen</Declaration>
+            
+            <DeclaredIn>HFLoginButton.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HFLoginButtonStyleGreenOnWhite</TokenIdentifier>
+            <Abstract type="html">   Makes the login button use a white background with a green text/image overlay.</Abstract>
+            <Declaration>HFLoginButtonStyleGreenOnWhite</Declaration>
+            
+            <DeclaredIn>HFLoginButton.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

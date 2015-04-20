@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/HFTokenInformation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/HFTokenInformation</TokenIdentifier>
+			<Abstract type="html">The result of querying for more information about a token.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFTokenInformation/setToken:</TokenIdentifier>
+			<Abstract type="html">The token (with updated known scopes and expiration).</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) HFAccessToken *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFTokenInformation/token</TokenIdentifier>
+			<Abstract type="html">The token (with updated known scopes and expiration).</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) HFAccessToken *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFTokenInformation/token</TokenIdentifier>
+			<Abstract type="html">The token (with updated known scopes and expiration).</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) HFAccessToken *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFTokenInformation/setApplicationId:</TokenIdentifier>
+			<Abstract type="html">The application to which this token belongs.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *applicationId</Declaration>
+			
+			
+			<Anchor>//api/name/applicationId</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFTokenInformation/applicationId</TokenIdentifier>
+			<Abstract type="html">The application to which this token belongs.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *applicationId</Declaration>
+			
+			
+			<Anchor>//api/name/applicationId</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFTokenInformation/applicationId</TokenIdentifier>
+			<Abstract type="html">The application to which this token belongs.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *applicationId</Declaration>
+			
+			
+			<Anchor>//api/name/applicationId</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFTokenInformation/setIssued:</TokenIdentifier>
+			<Abstract type="html">The time at which this token was issued.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSDate *issued</Declaration>
+			
+			
+			<Anchor>//api/name/issued</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFTokenInformation/issued</TokenIdentifier>
+			<Abstract type="html">The time at which this token was issued.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSDate *issued</Declaration>
+			
+			
+			<Anchor>//api/name/issued</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFTokenInformation/issued</TokenIdentifier>
+			<Abstract type="html">The time at which this token was issued.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSDate *issued</Declaration>
+			
+			
+			<Anchor>//api/name/issued</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFTokenInformation/setUserId:</TokenIdentifier>
+			<Abstract type="html">The user id (scoped to the application) that this token is for, if any.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFTokenInformation/userId</TokenIdentifier>
+			<Abstract type="html">The user id (scoped to the application) that this token is for, if any.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFTokenInformation/userId</TokenIdentifier>
+			<Abstract type="html">The user id (scoped to the application) that this token is for, if any.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFTokenInformation/setIssuedToAuthenticatedClient:</TokenIdentifier>
+			<Abstract type="html">Whether the token was issued to an authenticated client.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL issuedToAuthenticatedClient</Declaration>
+			
+			
+			<Anchor>//api/name/issuedToAuthenticatedClient</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFTokenInformation/issuedToAuthenticatedClient</TokenIdentifier>
+			<Abstract type="html">Whether the token was issued to an authenticated client.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL issuedToAuthenticatedClient</Declaration>
+			
+			
+			<Anchor>//api/name/issuedToAuthenticatedClient</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFTokenInformation/issuedToAuthenticatedClient</TokenIdentifier>
+			<Abstract type="html">Whether the token was issued to an authenticated client.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL issuedToAuthenticatedClient</Declaration>
+			
+			
+			<Anchor>//api/name/issuedToAuthenticatedClient</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/HFTokenInformation/tokenInformationWithToken:applicationId:issued:userId:issuedToAuthenticatedClient:</TokenIdentifier>
+			<Abstract type="html">Creates an HFTokenInformation object.</Abstract>
+			<DeclaredIn>HFTokenInformation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)tokenInformationWithToken:(HFAccessToken *)token applicationId:(NSString *)applicationId issued:(NSDate *)issued userId:(NSString *)userId issuedToAuthenticatedClient:(BOOL)issuedToAuthenticatedClient</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>token</Name>
+					<Abstract type="html">the token whose information is being represented</Abstract>
+				</Parameter><Parameter>
+					<Name>applicationId</Name>
+					<Abstract type="html">the applicationId for which the token was issued</Abstract>
+				</Parameter><Parameter>
+					<Name>issued</Name>
+					<Abstract type="html">the date and time the token was issued</Abstract>
+				</Parameter><Parameter>
+					<Name>userId</Name>
+					<Abstract type="html">the stable, unique user ID of the user for which the token was issued</Abstract>
+				</Parameter><Parameter>
+					<Name>issuedToAuthenticatedClient</Name>
+					<Abstract type="html">was the token issued to an authenticated client</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/tokenInformationWithToken:applicationId:issued:userId:issuedToAuthenticatedClient:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

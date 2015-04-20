@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/HFLoginButton.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/HFLoginButton</TokenIdentifier>
+			<Abstract type="html">Provides a button that can be used to initiate login with Hoomi.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFLoginButton/setClient:</TokenIdentifier>
+			<Abstract type="html">The HFClient to use for login. The default client will be used if none is set.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) HFClient *client</Declaration>
+			
+			
+			<Anchor>//api/name/client</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFLoginButton/client</TokenIdentifier>
+			<Abstract type="html">The HFClient to use for login. The default client will be used if none is set.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) HFClient *client</Declaration>
+			
+			
+			<Anchor>//api/name/client</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFLoginButton/client</TokenIdentifier>
+			<Abstract type="html">The HFClient to use for login. The default client will be used if none is set.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) HFClient *client</Declaration>
+			
+			
+			<Anchor>//api/name/client</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFLoginButton/setScopes:</TokenIdentifier>
+			<Abstract type="html">A list of scopes (strings) to request from the user when logging in.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSArray *scopes</Declaration>
+			
+			
+			<Anchor>//api/name/scopes</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFLoginButton/scopes</TokenIdentifier>
+			<Abstract type="html">A list of scopes (strings) to request from the user when logging in.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSArray *scopes</Declaration>
+			
+			
+			<Anchor>//api/name/scopes</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFLoginButton/scopes</TokenIdentifier>
+			<Abstract type="html">A list of scopes (strings) to request from the user when logging in.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSArray *scopes</Declaration>
+			
+			
+			<Anchor>//api/name/scopes</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFLoginButton/setRedirectUri:</TokenIdentifier>
+			<Abstract type="html">The redirect URI for this app. This value must be set before attempting login.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSURL *redirectUri</Declaration>
+			
+			
+			<Anchor>//api/name/redirectUri</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFLoginButton/redirectUri</TokenIdentifier>
+			<Abstract type="html">The redirect URI for this app. This value must be set before attempting login.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSURL *redirectUri</Declaration>
+			
+			
+			<Anchor>//api/name/redirectUri</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFLoginButton/redirectUri</TokenIdentifier>
+			<Abstract type="html">The redirect URI for this app. This value must be set before attempting login.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSURL *redirectUri</Declaration>
+			
+			
+			<Anchor>//api/name/redirectUri</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFLoginButton/setButtonStyle:</TokenIdentifier>
+			<Abstract type="html">The button style (green on white or white on green) for the button.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) HFLoginButtonStyle buttonStyle</Declaration>
+			
+			
+			<Anchor>//api/name/buttonStyle</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFLoginButton/buttonStyle</TokenIdentifier>
+			<Abstract type="html">The button style (green on white or white on green) for the button.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) HFLoginButtonStyle buttonStyle</Declaration>
+			
+			
+			<Anchor>//api/name/buttonStyle</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFLoginButton/buttonStyle</TokenIdentifier>
+			<Abstract type="html">The button style (green on white or white on green) for the button.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) HFLoginButtonStyle buttonStyle</Declaration>
+			
+			
+			<Anchor>//api/name/buttonStyle</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFLoginButton/setDelegate:</TokenIdentifier>
+			<Abstract type="html">A delegate to receive messages when the button is clicked and when authorization completes.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;HFLoginButtonDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFLoginButton/delegate</TokenIdentifier>
+			<Abstract type="html">A delegate to receive messages when the button is clicked and when authorization completes.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;HFLoginButtonDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFLoginButton/delegate</TokenIdentifier>
+			<Abstract type="html">A delegate to receive messages when the button is clicked and when authorization completes.</Abstract>
+			<DeclaredIn>HFLoginButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;HFLoginButtonDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

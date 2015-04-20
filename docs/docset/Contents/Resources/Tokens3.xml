@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/HFClient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/HFClient</TokenIdentifier>
+			<Abstract type="html">The main entry point for working with Hoomi.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/HFClient/clientWithApplicationId:</TokenIdentifier>
+			<Abstract type="html">Creates an HFClient with the given application ID from Hoomi.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)clientWithApplicationId:(NSString *)applicationId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>applicationId</Name>
+					<Abstract type="html">the application ID that this client will use</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clientWithApplicationId:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/HFClient/currentClient</TokenIdentifier>
+			<Abstract type="html">Gets the default client to use for accessing Hoomi.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>+ (HFClient *)currentClient</Declaration>
+			
+			
+			<Anchor>//api/name/currentClient</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/HFClient/setCurrentClient:</TokenIdentifier>
+			<Abstract type="html">Sets the default client to use for accessing Hoomi.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>+ (void)setCurrentClient:(HFClient *)client</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>client</Name>
+					<Abstract type="html">the new current HFClient</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setCurrentClient:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/enableClientAuthentication</TokenIdentifier>
+			<Abstract type="html">Enables client authentication, which will only be effective when not running in the simulator</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (void)enableClientAuthentication</Declaration>
+			
+			
+			<Anchor>//api/name/enableClientAuthentication</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/requireClientAuthentication</TokenIdentifier>
+			<Abstract type="html">Enables client authentication, and will request an app receipt if none is</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (void)requireClientAuthentication</Declaration>
+			
+			
+			<Anchor>//api/name/requireClientAuthentication</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/logOut</TokenIdentifier>
+			<Abstract type="html">Clears the current access token.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (void)logOut</Declaration>
+			
+			
+			<Anchor>//api/name/logOut</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/authorizeAsyncWithRedirectUrl:scopes:</TokenIdentifier>
+			<Abstract type="html">Begins the process of authorizing with Hoomi using the given redirect url and scopes.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)authorizeAsyncWithRedirectUrl:(NSURL *)redirectUrl scopes:(NSArray *)scopes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>redirectUrl</Name>
+					<Abstract type="html">the redirect URL to use to return to your app</Abstract>
+				</Parameter><Parameter>
+					<Name>scopes</Name>
+					<Abstract type="html">the set of (NSString) scopes to request access to</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an HFAccessToken (asynchronously)</Abstract></ReturnValue>
+			<Anchor>//api/name/authorizeAsyncWithRedirectUrl:scopes:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/application:openURL:sourceApplication:annotation:</TokenIdentifier>
+			<Abstract type="html">Pass through for completing the login process.  Call this method from your AppDelegate&apos;s</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>application</Name>
+					<Abstract type="html">the UIApplication</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">the URL being opened in the application</Abstract>
+				</Parameter><Parameter>
+					<Name>sourceApplication</Name>
+					<Abstract type="html">the bundle ID of the app that is requesting your app to open the URL</Abstract>
+				</Parameter><Parameter>
+					<Name>annotation</Name>
+					<Abstract type="html">a property list object supplied by the source app to communicate information to the receiving app</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">true if and only if the link was the result of a Hoomi callback and was handled by Hoomi</Abstract></ReturnValue>
+			<Anchor>//api/name/application:openURL:sourceApplication:annotation:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/tokenInformationAsync:</TokenIdentifier>
+			<Abstract type="html">Gets token information for the given Hoomi access token.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)tokenInformationAsync:(HFAccessToken *)token</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>token</Name>
+					<Abstract type="html">the token to fetch information for</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">HFTokenInformation (asynchronously)</Abstract></ReturnValue>
+			<Anchor>//api/name/tokenInformationAsync:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/appDataAsyncWithToken:</TokenIdentifier>
+			<Abstract type="html">Gets the app data for a user.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)appDataAsyncWithToken:(HFAccessToken *)token</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>token</Name>
+					<Abstract type="html">the access token (which must have the user:app:data:read scope) for the user</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">HFAppData (asynchronously)</Abstract></ReturnValue>
+			<Anchor>//api/name/appDataAsyncWithToken:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/appDataAsync</TokenIdentifier>
+			<Abstract type="html">Gets the app data for the current user (the current token must have the user:app:data:read scope).</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)appDataAsync</Declaration>
+			
+			<ReturnValue><Abstract type="html">HFAppData (asynchronously)</Abstract></ReturnValue>
+			<Anchor>//api/name/appDataAsync</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/setAppDataAsync:ETag:token:</TokenIdentifier>
+			<Abstract type="html">Sets the app data for the user with the given token.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)setAppDataAsync:(NSDictionary *)jsonData ETag:(NSString *)ETag token:(HFAccessToken *)token</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>jsonData</Name>
+					<Abstract type="html">the new (JSON-serializable) data to associate with the user</Abstract>
+				</Parameter><Parameter>
+					<Name>ETag</Name>
+					<Abstract type="html">an ETag to be used for optimistic concurrency control. Set to &quot;*&quot; to ignore the ETag</Abstract>
+				</Parameter><Parameter>
+					<Name>token</Name>
+					<Abstract type="html">the token (which must have the user:app:data:write scope) for the user</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the new HFAppData (asynchronously)</Abstract></ReturnValue>
+			<Anchor>//api/name/setAppDataAsync:ETag:token:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/setAppDataAsync:ETag:</TokenIdentifier>
+			<Abstract type="html">Sets the app data for the current user (the current token must have the user:app:data:write scope).</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)setAppDataAsync:(NSDictionary *)jsonData ETag:(NSString *)ETag</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>jsonData</Name>
+					<Abstract type="html">the new (JSON-serializable) data to associate with the user</Abstract>
+				</Parameter><Parameter>
+					<Name>ETag</Name>
+					<Abstract type="html">an ETag to be used for optimistic concurrency control. Set to &quot;*&quot; to ignore the ETag</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the new HFAppData (asynchronously)</Abstract></ReturnValue>
+			<Anchor>//api/name/setAppDataAsync:ETag:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/setAppDataAsync:token:</TokenIdentifier>
+			<Abstract type="html">Sets the app data for the user with the given token.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)setAppDataAsync:(NSDictionary *)jsonData token:(HFAccessToken *)token</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>jsonData</Name>
+					<Abstract type="html">the new (JSON-serializable) data to associate with the user</Abstract>
+				</Parameter><Parameter>
+					<Name>token</Name>
+					<Abstract type="html">the token (which must have the user:app:data:write scope) for the user</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the new HFAppData (asynchronously)</Abstract></ReturnValue>
+			<Anchor>//api/name/setAppDataAsync:token:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/setAppDataAsync:</TokenIdentifier>
+			<Abstract type="html">Sets the app data for the current user (the current token must have the user:app:data:write scope).</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)setAppDataAsync:(NSDictionary *)jsonData</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>jsonData</Name>
+					<Abstract type="html">the new (JSON-serializable) data to associate with the user</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the new HFAppData (asynchronously)</Abstract></ReturnValue>
+			<Anchor>//api/name/setAppDataAsync:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/HFAppData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/HFAppData</TokenIdentifier>
+			<Abstract type="html">Represents a app data stored with a user.</Abstract>
+			<DeclaredIn>HFAppData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFAppData/setData:</TokenIdentifier>
+			<Abstract type="html">The data for the user. This is mutable so that it can be easily modified and</Abstract>
+			<DeclaredIn>HFAppData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSMutableDictionary *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFAppData/data</TokenIdentifier>
+			<Abstract type="html">The data for the user. This is mutable so that it can be easily modified and</Abstract>
+			<DeclaredIn>HFAppData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSMutableDictionary *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFAppData/data</TokenIdentifier>
+			<Abstract type="html">The data for the user. This is mutable so that it can be easily modified and</Abstract>
+			<DeclaredIn>HFAppData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSMutableDictionary *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFAppData/setETag:</TokenIdentifier>
+			<Abstract type="html">Gets the ETag used for optimistic concurrency for this app data.</Abstract>
+			<DeclaredIn>HFAppData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *ETag</Declaration>
+			
+			
+			<Anchor>//api/name/ETag</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFAppData/ETag</TokenIdentifier>
+			<Abstract type="html">Gets the ETag used for optimistic concurrency for this app data.</Abstract>
+			<DeclaredIn>HFAppData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *ETag</Declaration>
+			
+			
+			<Anchor>//api/name/ETag</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFAppData/ETag</TokenIdentifier>
+			<Abstract type="html">Gets the ETag used for optimistic concurrency for this app data.</Abstract>
+			<DeclaredIn>HFAppData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *ETag</Declaration>
+			
+			
+			<Anchor>//api/name/ETag</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/HFAppData/appDataWithData:ETag:</TokenIdentifier>
+			<Abstract type="html">Creates an HFAppData instance with the given data and ETag.</Abstract>
+			<DeclaredIn>HFAppData.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)appDataWithData:(NSMutableDictionary *)data ETag:(NSString *)ETag</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">the app data for the user</Abstract>
+				</Parameter><Parameter>
+					<Name>ETag</Name>
+					<Abstract type="html">the ETag of the app data (used for optimistic concurrency)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/appDataWithData:ETag:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

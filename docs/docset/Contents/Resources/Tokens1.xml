@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/HFAccessToken.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/HFAccessToken</TokenIdentifier>
+			<Abstract type="html">Represents a Hoomi access token.</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFAccessToken/setTokenString:</TokenIdentifier>
+			<Abstract type="html">The token string that will be used for requests with this token.</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *tokenString</Declaration>
+			
+			
+			<Anchor>//api/name/tokenString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFAccessToken/tokenString</TokenIdentifier>
+			<Abstract type="html">The token string that will be used for requests with this token.</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *tokenString</Declaration>
+			
+			
+			<Anchor>//api/name/tokenString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFAccessToken/tokenString</TokenIdentifier>
+			<Abstract type="html">The token string that will be used for requests with this token.</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *tokenString</Declaration>
+			
+			
+			<Anchor>//api/name/tokenString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFAccessToken/setKnownScopes:</TokenIdentifier>
+			<Abstract type="html">The set of scopes known to be provided by this token. Users may revoke access</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSArray *knownScopes</Declaration>
+			
+			
+			<Anchor>//api/name/knownScopes</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFAccessToken/knownScopes</TokenIdentifier>
+			<Abstract type="html">The set of scopes known to be provided by this token. Users may revoke access</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSArray *knownScopes</Declaration>
+			
+			
+			<Anchor>//api/name/knownScopes</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFAccessToken/knownScopes</TokenIdentifier>
+			<Abstract type="html">The set of scopes known to be provided by this token. Users may revoke access</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSArray *knownScopes</Declaration>
+			
+			
+			<Anchor>//api/name/knownScopes</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFAccessToken/setKnownExpiration:</TokenIdentifier>
+			<Abstract type="html">The expiration known for this token. The token may becoem invalid before its</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSDate *knownExpiration</Declaration>
+			
+			
+			<Anchor>//api/name/knownExpiration</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFAccessToken/knownExpiration</TokenIdentifier>
+			<Abstract type="html">The expiration known for this token. The token may becoem invalid before its</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSDate *knownExpiration</Declaration>
+			
+			
+			<Anchor>//api/name/knownExpiration</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFAccessToken/knownExpiration</TokenIdentifier>
+			<Abstract type="html">The expiration known for this token. The token may becoem invalid before its</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSDate *knownExpiration</Declaration>
+			
+			
+			<Anchor>//api/name/knownExpiration</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/HFAccessToken/tokenWithString:</TokenIdentifier>
+			<Abstract type="html">Creates an HFAccessToken given just the token string, in case you are restoring</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)tokenWithString:(NSString *)token</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>token</Name>
+					<Abstract type="html">the token string</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/tokenWithString:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/HFAccessToken/tokenWithString:knownScopes:knownExpiration:</TokenIdentifier>
+			<Abstract type="html">Creates an HFAccessToken with its known scopes and expiration.</Abstract>
+			<DeclaredIn>HFAccessToken.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)tokenWithString:(NSString *)token knownScopes:(NSArray *)knownScopes knownExpiration:(NSDate *)knownExpiration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>token</Name>
+					<Abstract type="html">the token string</Abstract>
+				</Parameter><Parameter>
+					<Name>knownScopes</Name>
+					<Abstract type="html">the set of scopes known to be issued for this token</Abstract>
+				</Parameter><Parameter>
+					<Name>knownExpiration</Name>
+					<Abstract type="html">the known expiration time for this token</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/tokenWithString:knownScopes:knownExpiration:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
