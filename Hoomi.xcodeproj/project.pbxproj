@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		63749B921AE07CFE00A31ACA /* Build Docs */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 63749B951AE07CFE00A31ACA /* Build configuration list for PBXAggregateTarget "Build Docs" */;
+			buildPhases = (
+				63749B961AE07D0300A31ACA /* ShellScript */,
+			);
+			dependencies = (
+				6392E7B51AE183D70082AEC1 /* PBXTargetDependency */,
+			);
+			name = "Build Docs";
+			productName = "Build Docs";
+		};
+		63BBDCFB1AE5A85900878BD4 /* Universal Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 63BBDCFC1AE5A85900878BD4 /* Build configuration list for PBXAggregateTarget "Universal Framework" */;
+			buildPhases = (
+				63BBDCFF1AE5A85D00878BD4 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Universal Framework";
+			productName = "Universal Framework2";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		636FB12B1A30E0E1001F5427 /* Hoomi.h in Headers */ = {isa = PBXBuildFile; fileRef = 636FB12A1A30E0E1001F5427 /* Hoomi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636FB1841A30E7BA001F5427 /* HFClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 636FB1821A30E7BA001F5427 /* HFClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636FB1851A30E7BA001F5427 /* HFClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FB1831A30E7BA001F5427 /* HFClient.m */; };
+		636FB1891A312445001F5427 /* HFAccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 636FB1871A312445001F5427 /* HFAccessToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636FB18A1A312445001F5427 /* HFAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FB1881A312445001F5427 /* HFAccessToken.m */; };
+		636FB18C1A312514001F5427 /* HFAccessToken+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 636FB18B1A312514001F5427 /* HFAccessToken+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		636FB1931A313F91001F5427 /* HFUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 636FB1911A313F91001F5427 /* HFUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		636FB1941A313F91001F5427 /* HFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FB1921A313F91001F5427 /* HFUtils.m */; };
+		638FCE541A329AEC0029B699 /* HFTokenInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 638FCE521A329AEC0029B699 /* HFTokenInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		638FCE551A329AEC0029B699 /* HFTokenInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 638FCE531A329AEC0029B699 /* HFTokenInformation.m */; };
+		638FCE581A329CBF0029B699 /* HFAppData.h in Headers */ = {isa = PBXBuildFile; fileRef = 638FCE561A329CBE0029B699 /* HFAppData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		638FCE591A329CBF0029B699 /* HFAppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 638FCE571A329CBF0029B699 /* HFAppData.m */; };
+		6392E7B81AE1A49B0082AEC1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6392E7B71AE1A49B0082AEC1 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		63B1BE2B1A36362E00209DB2 /* HFLoginButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B1BE291A36362E00209DB2 /* HFLoginButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B1BE2C1A36362E00209DB2 /* HFLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B1BE2A1A36362E00209DB2 /* HFLoginButton.m */; };
+		63B1BE4C1A36414200209DB2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B1BE4B1A36414200209DB2 /* Bolts.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		63B1BE501A3649F700209DB2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B1BE4F1A3649F700209DB2 /* CoreText.framework */; };
+		63B1BE521A367D2600209DB2 /* HFLoginButtonDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B1BE511A367BEC00209DB2 /* HFLoginButtonDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6392E7B41AE183D70082AEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 636FB11C1A30E0E0001F5427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636FB1241A30E0E0001F5427;
+			remoteInfo = Hoomi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		636FB1251A30E0E1001F5427 /* Hoomi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hoomi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		636FB1291A30E0E1001F5427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636FB12A1A30E0E1001F5427 /* Hoomi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hoomi.h; sourceTree = "<group>"; };
+		636FB1821A30E7BA001F5427 /* HFClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFClient.h; sourceTree = "<group>"; };
+		636FB1831A30E7BA001F5427 /* HFClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFClient.m; sourceTree = "<group>"; };
+		636FB1871A312445001F5427 /* HFAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAccessToken.h; sourceTree = "<group>"; };
+		636FB1881A312445001F5427 /* HFAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAccessToken.m; sourceTree = "<group>"; };
+		636FB18B1A312514001F5427 /* HFAccessToken+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFAccessToken+Internal.h"; sourceTree = "<group>"; };
+		636FB1911A313F91001F5427 /* HFUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFUtils.h; sourceTree = "<group>"; };
+		636FB1921A313F91001F5427 /* HFUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFUtils.m; sourceTree = "<group>"; };
+		638FCE521A329AEC0029B699 /* HFTokenInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFTokenInformation.h; sourceTree = "<group>"; };
+		638FCE531A329AEC0029B699 /* HFTokenInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFTokenInformation.m; sourceTree = "<group>"; };
+		638FCE561A329CBE0029B699 /* HFAppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAppData.h; sourceTree = "<group>"; };
+		638FCE571A329CBF0029B699 /* HFAppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAppData.m; sourceTree = "<group>"; };
+		6392E7B71AE1A49B0082AEC1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		63B1BE291A36362E00209DB2 /* HFLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFLoginButton.h; sourceTree = "<group>"; };
+		63B1BE2A1A36362E00209DB2 /* HFLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFLoginButton.m; sourceTree = "<group>"; };
+		63B1BE4B1A36414200209DB2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		63B1BE4F1A3649F700209DB2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		63B1BE511A367BEC00209DB2 /* HFLoginButtonDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFLoginButtonDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		636FB1211A30E0E0001F5427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6392E7B81AE1A49B0082AEC1 /* StoreKit.framework in Frameworks */,
+				63B1BE501A3649F700209DB2 /* CoreText.framework in Frameworks */,
+				63B1BE4C1A36414200209DB2 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151AEA53C786A51E5F5965A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6392E7B71AE1A49B0082AEC1 /* StoreKit.framework */,
+				63B1BE4F1A3649F700209DB2 /* CoreText.framework */,
+				63B1BE4B1A36414200209DB2 /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		636FB11B1A30E0E0001F5427 = {
+			isa = PBXGroup;
+			children = (
+				636FB1271A30E0E1001F5427 /* Hoomi */,
+				636FB1261A30E0E1001F5427 /* Products */,
+				151AEA53C786A51E5F5965A5 /* Frameworks */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		636FB1261A30E0E1001F5427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				636FB1251A30E0E1001F5427 /* Hoomi.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636FB1271A30E0E1001F5427 /* Hoomi */ = {
+			isa = PBXGroup;
+			children = (
+				636FB1871A312445001F5427 /* HFAccessToken.h */,
+				636FB1881A312445001F5427 /* HFAccessToken.m */,
+				636FB18B1A312514001F5427 /* HFAccessToken+Internal.h */,
+				638FCE561A329CBE0029B699 /* HFAppData.h */,
+				638FCE571A329CBF0029B699 /* HFAppData.m */,
+				636FB1821A30E7BA001F5427 /* HFClient.h */,
+				636FB1831A30E7BA001F5427 /* HFClient.m */,
+				63B1BE291A36362E00209DB2 /* HFLoginButton.h */,
+				63B1BE2A1A36362E00209DB2 /* HFLoginButton.m */,
+				63B1BE511A367BEC00209DB2 /* HFLoginButtonDelegate.h */,
+				638FCE521A329AEC0029B699 /* HFTokenInformation.h */,
+				638FCE531A329AEC0029B699 /* HFTokenInformation.m */,
+				636FB1911A313F91001F5427 /* HFUtils.h */,
+				636FB1921A313F91001F5427 /* HFUtils.m */,
+				636FB12A1A30E0E1001F5427 /* Hoomi.h */,
+				636FB1281A30E0E1001F5427 /* Supporting Files */,
+			);
+			path = Hoomi;
+			sourceTree = "<group>";
+		};
+		636FB1281A30E0E1001F5427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				636FB1291A30E0E1001F5427 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		636FB1221A30E0E0001F5427 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638FCE581A329CBF0029B699 /* HFAppData.h in Headers */,
+				638FCE541A329AEC0029B699 /* HFTokenInformation.h in Headers */,
+				636FB1841A30E7BA001F5427 /* HFClient.h in Headers */,
+				63B1BE2B1A36362E00209DB2 /* HFLoginButton.h in Headers */,
+				63B1BE521A367D2600209DB2 /* HFLoginButtonDelegate.h in Headers */,
+				636FB1891A312445001F5427 /* HFAccessToken.h in Headers */,
+				636FB18C1A312514001F5427 /* HFAccessToken+Internal.h in Headers */,
+				636FB1931A313F91001F5427 /* HFUtils.h in Headers */,
+				636FB12B1A30E0E1001F5427 /* Hoomi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		636FB1241A30E0E0001F5427 /* Hoomi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636FB13B1A30E0E1001F5427 /* Build configuration list for PBXNativeTarget "Hoomi" */;
+			buildPhases = (
+				636FB1201A30E0E0001F5427 /* Sources */,
+				636FB1211A30E0E0001F5427 /* Frameworks */,
+				636FB1221A30E0E0001F5427 /* Headers */,
+				636FB1231A30E0E0001F5427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hoomi;
+			productName = Hoomi;
+			productReference = 636FB1251A30E0E1001F5427 /* Hoomi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		636FB11C1A30E0E0001F5427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HF;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Hoomi;
+				TargetAttributes = {
+					636FB1241A30E0E0001F5427 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					63749B921AE07CFE00A31ACA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					63BBDCFB1AE5A85900878BD4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 636FB11F1A30E0E0001F5427 /* Build configuration list for PBXProject "Hoomi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 636FB11B1A30E0E0001F5427;
+			productRefGroup = 636FB1261A30E0E1001F5427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				636FB1241A30E0E0001F5427 /* Hoomi */,
+				63749B921AE07CFE00A31ACA /* Build Docs */,
+				63BBDCFB1AE5A85900878BD4 /* Universal Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636FB1231A30E0E0001F5427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63749B961AE07D0300A31ACA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"Hoomi, Inc.\";\ncompanyID=\"co.hoomi\";\ncompanyURL=\"https://www.hoomi.co\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=${BUILD_DIR}/docs;\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n${BUILD_DIR}/${CONFIGURATION}-${PLATFORM_NAME}/${PROJECT_NAME}.framework 2> appledocerrors.tmp\ncat appledocerrors.tmp | sed -e \"s/$(echo ${BUILD_DIR}/${CONFIGURATION}-${PLATFORM_NAME}/${PROJECT_NAME}.framework/Headers | sed -e 's/[\\/&]/\\\\&/g')/$(echo ${PROJECT_DIR}/${PROJECT_NAME} | sed -e 's/[]\\/$*.^|[]/\\\\&/g')/g\" >&2\nrm appledocerrors.tmp";
+		};
+		63BBDCFF1AE5A85D00878BD4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Clear any old gunk\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules (from iphonesimulator build) to the copied framework directory\n# cp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\n# cp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\n# open \"${PROJECT_DIR}\"\n\n# Step 7. Copy the supporting bundle file to the output directory\ncp -R \"${PROJECT_DIR}/${PROJECT_NAME}.bundle\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 8. Copy supporting frameworks to the output directory\ncp -R ${PROJECT_DIR}/*.framework \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636FB1201A30E0E0001F5427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638FCE551A329AEC0029B699 /* HFTokenInformation.m in Sources */,
+				63B1BE2C1A36362E00209DB2 /* HFLoginButton.m in Sources */,
+				636FB1851A30E7BA001F5427 /* HFClient.m in Sources */,
+				636FB1941A313F91001F5427 /* HFUtils.m in Sources */,
+				638FCE591A329CBF0029B699 /* HFAppData.m in Sources */,
+				636FB18A1A312445001F5427 /* HFAccessToken.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6392E7B51AE183D70082AEC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636FB1241A30E0E0001F5427 /* Hoomi */;
+			targetProxy = 6392E7B41AE183D70082AEC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		636FB1391A30E0E1001F5427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		636FB13A1A30E0E1001F5427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		636FB13C1A30E0E1001F5427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 0.9;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Hoomi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		636FB13D1A30E0E1001F5427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 0.9;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Hoomi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		63749B931AE07CFE00A31ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63749B941AE07CFE00A31ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63BBDCFD1AE5A85900878BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63BBDCFE1AE5A85900878BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		636FB11F1A30E0E0001F5427 /* Build configuration list for PBXProject "Hoomi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636FB1391A30E0E1001F5427 /* Debug */,
+				636FB13A1A30E0E1001F5427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636FB13B1A30E0E1001F5427 /* Build configuration list for PBXNativeTarget "Hoomi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636FB13C1A30E0E1001F5427 /* Debug */,
+				636FB13D1A30E0E1001F5427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63749B951AE07CFE00A31ACA /* Build configuration list for PBXAggregateTarget "Build Docs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63749B931AE07CFE00A31ACA /* Debug */,
+				63749B941AE07CFE00A31ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BBDCFC1AE5A85900878BD4 /* Build configuration list for PBXAggregateTarget "Universal Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BBDCFD1AE5A85900878BD4 /* Debug */,
+				63BBDCFE1AE5A85900878BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 636FB11C1A30E0E0001F5427 /* Project object */;
+}

@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		636FB1501A30E1F7001F5427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FB14F1A30E1F7001F5427 /* main.m */; };
+		636FB1531A30E1F7001F5427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FB1521A30E1F7001F5427 /* AppDelegate.m */; };
+		636FB1561A30E1F7001F5427 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FB1551A30E1F7001F5427 /* ViewController.m */; };
+		636FB15B1A30E1F7001F5427 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636FB15A1A30E1F7001F5427 /* Images.xcassets */; };
+		63749B981AE080A700A31ACA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63749B971AE080A700A31ACA /* Bolts.framework */; };
+		63B7591B1AE1E34D0019B33A /* Hoomi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63B7591A1AE1E34D0019B33A /* Hoomi.bundle */; };
+		63B7592B1AE1E65A0019B33A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B7592A1AE1E65A0019B33A /* StoreKit.framework */; };
+		63B7592D1AE1E7210019B33A /* Hoomi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B7592C1AE1E7210019B33A /* Hoomi.framework */; };
+		63FF8F131AE5B85F00F5A72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636FB1571A30E1F7001F5427 /* Main.storyboard */; };
+		63FF8F141AE5B85F00F5A72E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636FB15C1A30E1F7001F5427 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		636FB14A1A30E1F7001F5427 /* HoomiSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoomiSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		636FB14E1A30E1F7001F5427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636FB14F1A30E1F7001F5427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		636FB1511A30E1F7001F5427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		636FB1521A30E1F7001F5427 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		636FB1541A30E1F7001F5427 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		636FB1551A30E1F7001F5427 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		636FB1581A30E1F7001F5427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		636FB15A1A30E1F7001F5427 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		636FB15D1A30E1F7001F5427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		63749B971AE080A700A31ACA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		63B7591A1AE1E34D0019B33A /* Hoomi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Hoomi.bundle; path = ../Hoomi.bundle; sourceTree = "<group>"; };
+		63B7592A1AE1E65A0019B33A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		63B7592C1AE1E7210019B33A /* Hoomi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hoomi.framework; path = "../DerivedData/Hoomi/Build/Products/Debug-universal/Hoomi.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		636FB1471A30E1F7001F5427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B7592D1AE1E7210019B33A /* Hoomi.framework in Frameworks */,
+				63B7592B1AE1E65A0019B33A /* StoreKit.framework in Frameworks */,
+				63749B981AE080A700A31ACA /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636FB1411A30E1F7001F5427 = {
+			isa = PBXGroup;
+			children = (
+				63B7591A1AE1E34D0019B33A /* Hoomi.bundle */,
+				636FB14C1A30E1F7001F5427 /* HoomiSample */,
+				636FB14B1A30E1F7001F5427 /* Products */,
+				F53BFE2410F6FE2E4E2DA45E /* Frameworks */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		636FB14B1A30E1F7001F5427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				636FB14A1A30E1F7001F5427 /* HoomiSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636FB14C1A30E1F7001F5427 /* HoomiSample */ = {
+			isa = PBXGroup;
+			children = (
+				636FB1511A30E1F7001F5427 /* AppDelegate.h */,
+				636FB1521A30E1F7001F5427 /* AppDelegate.m */,
+				636FB1541A30E1F7001F5427 /* ViewController.h */,
+				636FB1551A30E1F7001F5427 /* ViewController.m */,
+				636FB1571A30E1F7001F5427 /* Main.storyboard */,
+				636FB15A1A30E1F7001F5427 /* Images.xcassets */,
+				636FB15C1A30E1F7001F5427 /* LaunchScreen.xib */,
+				636FB14D1A30E1F7001F5427 /* Supporting Files */,
+			);
+			path = HoomiSample;
+			sourceTree = "<group>";
+		};
+		636FB14D1A30E1F7001F5427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				636FB14E1A30E1F7001F5427 /* Info.plist */,
+				636FB14F1A30E1F7001F5427 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F53BFE2410F6FE2E4E2DA45E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B7592C1AE1E7210019B33A /* Hoomi.framework */,
+				63B7592A1AE1E65A0019B33A /* StoreKit.framework */,
+				63749B971AE080A700A31ACA /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		636FB1491A30E1F7001F5427 /* HoomiSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636FB16D1A30E1F7001F5427 /* Build configuration list for PBXNativeTarget "HoomiSample" */;
+			buildPhases = (
+				636FB1461A30E1F7001F5427 /* Sources */,
+				636FB1471A30E1F7001F5427 /* Frameworks */,
+				636FB1481A30E1F7001F5427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoomiSample;
+			productName = HoomiSample;
+			productReference = 636FB14A1A30E1F7001F5427 /* HoomiSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		636FB1421A30E1F7001F5427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HS;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Hoomi;
+				TargetAttributes = {
+					636FB1491A30E1F7001F5427 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 43AWMS3YJX;
+					};
+				};
+			};
+			buildConfigurationList = 636FB1451A30E1F7001F5427 /* Build configuration list for PBXProject "HoomiSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 636FB1411A30E1F7001F5427;
+			productRefGroup = 636FB14B1A30E1F7001F5427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				636FB1491A30E1F7001F5427 /* HoomiSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636FB1481A30E1F7001F5427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF8F131AE5B85F00F5A72E /* Main.storyboard in Resources */,
+				63FF8F141AE5B85F00F5A72E /* LaunchScreen.xib in Resources */,
+				63B7591B1AE1E34D0019B33A /* Hoomi.bundle in Resources */,
+				636FB15B1A30E1F7001F5427 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636FB1461A30E1F7001F5427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636FB1561A30E1F7001F5427 /* ViewController.m in Sources */,
+				636FB1531A30E1F7001F5427 /* AppDelegate.m in Sources */,
+				636FB1501A30E1F7001F5427 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		636FB1571A30E1F7001F5427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636FB1581A30E1F7001F5427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		636FB15C1A30E1F7001F5427 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636FB15D1A30E1F7001F5427 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		636FB16B1A30E1F7001F5427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		636FB16C1A30E1F7001F5427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		636FB16E1A30E1F7001F5427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Hoomi-frsnwhszrfkuevackldhkpemwrhc/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)",
+					"${PROJECT_DIR}i/DerivedData/Hoomi/Build/Products/${CONFIGURATION}-universal",
+					"/Users/david/Documents/hoomi/iOS/Hoomi/DerivedData/Hoomi/Build/Products/Debug-universal",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = HoomiSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PODS_ROOT = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		636FB16F1A30E1F7001F5427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Hoomi-frsnwhszrfkuevackldhkpemwrhc/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)",
+					"${PROJECT_DIR}i/DerivedData/Hoomi/Build/Products/${CONFIGURATION}-universal",
+					"/Users/david/Documents/hoomi/iOS/Hoomi/DerivedData/Hoomi/Build/Products/Debug-universal",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = HoomiSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PODS_ROOT = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		636FB1451A30E1F7001F5427 /* Build configuration list for PBXProject "HoomiSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636FB16B1A30E1F7001F5427 /* Debug */,
+				636FB16C1A30E1F7001F5427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636FB16D1A30E1F7001F5427 /* Build configuration list for PBXNativeTarget "HoomiSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636FB16E1A30E1F7001F5427 /* Debug */,
+				636FB16F1A30E1F7001F5427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 636FB1421A30E1F7001F5427 /* Project object */;
+}
