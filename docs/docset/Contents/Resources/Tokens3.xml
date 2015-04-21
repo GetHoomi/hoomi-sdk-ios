@@ -83,6 +83,42 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/setCurrentToken:</TokenIdentifier>
+			<Abstract type="html">The current access token for the client.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) HFAccessToken *currentToken</Declaration>
+			
+			
+			<Anchor>//api/name/currentToken</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HFClient/currentToken</TokenIdentifier>
+			<Abstract type="html">The current access token for the client.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) HFAccessToken *currentToken</Declaration>
+			
+			
+			<Anchor>//api/name/currentToken</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HFClient/currentToken</TokenIdentifier>
+			<Abstract type="html">The current access token for the client.</Abstract>
+			<DeclaredIn>HFClient.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) HFAccessToken *currentToken</Declaration>
+			
+			
+			<Anchor>//api/name/currentToken</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/HFClient/logOut</TokenIdentifier>
 			<Abstract type="html">Clears the current access token.</Abstract>
 			<DeclaredIn>HFClient.h</DeclaredIn>
